@@ -1,38 +1,65 @@
+/* App.css */
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #f0f0f0; /* Set the background color of the entire site to light grey */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #343a40; /* Set the background color of the header to a darker shade */
+  color: #fff; /* Change the text color of the header to white */
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1 {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tabs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  list-style-type: none;
+  padding: 0;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.tabs li {
+  margin-right: 20px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tabs li:last-child {
+  margin-right: 0;
+}
+
+main {
+  padding: 20px;
+  text-align: left; /* Align text content within main to the left */
+}
+
+section {
+  margin-bottom: 40px; /* Increase space between sections */
+  max-width: 800px; /* Limit the width of sections for better readability */
+  margin: 0 auto; /* Center-align sections */
+  text-align: justify; /* Justify text content within sections */
+}
+
+footer {
+  background-color: #f8f9fa; /* Set the background color of the footer to a lighter shade */
+  color: #333; /* Change the text color of the footer */
+  padding: 20px;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer nav ul li a {
+  color: #333; /* Change the link color of the footer */
+  text-decoration: none;
 }
