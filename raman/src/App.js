@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header name="Ramandeep" onTabChange={handleTabChange} />
+      <Header name="Ramandeep Maan" onTabChange={handleTabChange} />
       <MainContent aboutRef={aboutRef} experienceRef={experienceRef} projectsRef={projectsRef} contactRef={contactRef} />
       <SocialLinks links={[
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/ramandeep-maan-b8a105185/' },
