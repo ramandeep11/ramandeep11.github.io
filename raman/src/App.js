@@ -42,6 +42,7 @@ function App() {
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/ramandeep-maan-b8a105185/' },
         { name: 'GitHub', url: 'https://github.com/ramandeep11/' }
       ]} />
+      <div style={{ height: '80px' }}></div>
     </div>
   );
 }
